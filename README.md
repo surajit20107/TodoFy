@@ -94,4 +94,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-Built with ❤️ using Next.js and React
+Built with ❤️ and lots of ☕ by <strong><a href="https://github.com/surajit20107">Surajit</a></strong>
