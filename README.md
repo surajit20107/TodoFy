@@ -80,10 +80,6 @@ npm run dev
 - **UUID**: Generates unique identifiers for each todo item to ensure proper React key handling
 - **Tailwind CSS**: Handles all styling with utility classes for rapid development
 
-## 🌐 Deployment
-
-This project is optimized for deployment on [Replit](https://replit.com). Simply fork the project and it will automatically deploy with the configured settings.
-
 ## 🤝 Contributing
 
 1. Fork the project
