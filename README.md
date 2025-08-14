@@ -51,7 +51,7 @@ todofy/
 1. Clone the repository:
 ```bash
 git clone https://github.com/surajit20107/TodoFy.git
-cd todofy
+cd TodoFy
 ```
 
 2. Install dependencies:
