@@ -1,4 +1,4 @@
-"use client";
+"use client"; // to make this client component 
 import Skeleton from "react-loading-skeleton";
 import { useState, useEffect } from "react";
 import { v4 as uuid } from "uuid";
@@ -13,6 +13,7 @@ interface Todo {
 }
 
 export default function Home() {
+  // initial states
   const [input, setInput] = useState("");
   const [todos, setTodos] = useState<Todo[]>([]);
   const [loading, setLoading] = useState(true);
@@ -25,7 +26,7 @@ export default function Home() {
         setTodos(JSON.parse(todo));
       }
       setLoading(false);
-    }, 100);
+    }, 100); // simulate server fetching delay
   }, []);
 
   // fetch todos when the todos array changes
